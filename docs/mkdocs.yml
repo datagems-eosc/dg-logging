@@ -1,4 +1,4 @@
-site_name: DataGEMS Data Workflow Orchestrator Docs
+site_name: DataGEMS Logging Service Docs
 
 site_url: https://datagems-eosc.github.io/dg-logging/
 repo_url: https://github.com/datagems-eosc/dg-logging/
@@ -9,7 +9,7 @@ nav:
     - Architecture: architecture.md
     - Datastores: datastore.md
   - Logging:
-    - Overview: logging-overview.md.md
+    - Overview: logging-overview.md
   - Setup & Monitoring:
     - Automations: automations.md
     - Deployment: deployment.md

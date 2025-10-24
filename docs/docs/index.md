@@ -6,4 +6,4 @@ The Logging service provides an aggregation functionality through which DataGEMS
 
 You can use the menu options on the left to navigate through the available documentation. You may be interested to jump directly to an [Architecture Overview](architecture.md), see the available [Onboarding Material](onboarding.md) or see some [Logging Pipeline Examples](logging-overview.md). You can find here the service [code repository](https://github.com/datagems-eosc/dg-logging).
 
-For any questions, you can consult the [FAQ](faq.md), check if there is a relevant [issue](https://github.com/datagems-eosc/dg-data-Logging/issues) answering your question or contact the [DataGEMS Help Desk](https://datagems.eu/contact-us/).
+For any questions, you can consult the [FAQ](faq.md), check if there is a relevant [issue](https://github.com/datagems-eosc/dg-logging/issues) answering your question or contact the [DataGEMS Help Desk](https://datagems.eu/contact-us/).
