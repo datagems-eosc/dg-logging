@@ -11,6 +11,10 @@
         <link rel="canonical" href="https://datagems-eosc.github.io/dg-logging/v0.0/logging-overview/">
       
       
+        <link rel="prev" href="../datastore/">
+      
+      
+        <link rel="next" href="../automations/">
       
       
       <link rel="icon" href="../images/favicon.jpg">
@@ -18,7 +22,7 @@
     
     
       
-        <title>Logging Overview - DataGEMS Data Workflow Orchestrator Docs</title>
+        <title>Overview - DataGEMS Logging Service Docs</title>
       
     
     
@@ -102,7 +106,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="DataGEMS Data Workflow Orchestrator Docs" class="md-header__button md-logo" aria-label="DataGEMS Data Workflow Orchestrator Docs" data-md-component="logo">
+    <a href=".." title="DataGEMS Logging Service Docs" class="md-header__button md-logo" aria-label="DataGEMS Logging Service Docs" data-md-component="logo">
       
   <img src="../images/datagems-portal-icon.png" alt="logo">
 
@@ -115,13 +119,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            DataGEMS Data Workflow Orchestrator Docs
+            DataGEMS Logging Service Docs
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Logging Overview
+              Overview
             
           </span>
         </div>
@@ -211,12 +215,12 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="DataGEMS Data Workflow Orchestrator Docs" class="md-nav__button md-logo" aria-label="DataGEMS Data Workflow Orchestrator Docs" data-md-component="logo">
+    <a href=".." title="DataGEMS Logging Service Docs" class="md-nav__button md-logo" aria-label="DataGEMS Logging Service Docs" data-md-component="logo">
       
   <img src="../images/datagems-portal-icon.png" alt="logo">
 
     </a>
-    DataGEMS Data Workflow Orchestrator Docs
+    DataGEMS Logging Service Docs
   </label>
   
     <div class="md-nav__source">
@@ -350,18 +354,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -377,7 +383,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Logging
@@ -388,10 +394,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../logging-overview.md.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -402,6 +430,86 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#log-tacking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Log Tacking
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#log-message-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Log Message Structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#log-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Log Formats
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Log Formats">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#json-cf-1-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      json-cf-1 format
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#json-cf-2-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      json-cf-2 format
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ingestion-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ingestion Pipeline
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -764,6 +872,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#ingestion-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ingestion Pipeline
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -828,6 +945,9 @@
 <span class="w">  </span><span class="nt">&quot;ClientId&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;a...0&quot;</span>
 <span class="p">}</span>
 </code></pre></div>
+<h2 id="ingestion-pipeline">Ingestion Pipeline<a class="headerlink" href="#ingestion-pipeline" title="Permanent link">&para;</a></h2>
+<p>The logging service offers various entrypoints through which log ingestion can take place, as it is backed by the mechanisms available by the ELK stack. For the purpose of the DataGEMS integration we have choosen a less intrucive approach for the integrating components.</p>
+<p>We make use of the Beats agents offered by the ELK stack. Through the deployment model utilized, an agent will read the logs produced by each pod and will scan for entries marked as Log Entries. A transformation step will apply any needed mutations to the log entry retrieved to match the logging model expected by the logging service. The trasformation can be customized based on specific deployment labels. A set of supported schemas is provided and each deployed service can declare the logging event schema it conforms to. Based on this schema the transformation is applied. After the log entry model is transformed, enriched with environment metadata and generated, it is pused to the logging service datastore where it becomes available for browsing.</p>
 
 
 
