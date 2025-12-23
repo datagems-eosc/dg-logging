@@ -6,7 +6,7 @@ This section contains some references and material that will assist users and in
 
 The definite guide for integrators remains the ELK documentation for [Elastic Search](https://www.elastic.co/docs/reference/elasticsearch/), [Logstash](https://www.elastic.co/docs/reference/logstash), [Kibana](https://www.elastic.co/docs/reference/kibana) and [Beats](https://www.elastic.co/docs/reference/beats).
 
-More information on the pipelines supported for the DataGEMS Logging needs can be found at the  [Logging Pipeline Examples](logging-overview.md) section.
+More information on the pipelines supported for the DataGEMS Logging needs can be found at the [Log Formats](logging-formats.md) section.
 
 For an overall view of the service, you can go through the [Architecture](architecture.md).
 
@@ -18,7 +18,7 @@ You can always contact us through the [DataGEMS Help Desk](https://datagems.eu/c
 
 ## Examples
 
-You can find descriptions and an overview of the offered pipelines in the [Logging Pipeline Examples](logging-overview.md) section.
+You can find descriptions and an overview of the offered pipelines in the [Log Formats](logging-formats.md) section.
 
 ## Tutorials
 

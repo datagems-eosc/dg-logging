@@ -9,7 +9,10 @@ nav:
     - Architecture: architecture.md
     - Datastores: datastore.md
   - Logging:
-    - Overview: logging-overview.md
+    - Log Tracking: logging-tracking.md
+    - Message Structure: logging-structure.md
+    - Log Formats: logging-formats.md
+    - Pipeline: logging-pipeline.md
   - Setup & Monitoring:
     - Automations: automations.md
     - Deployment: deployment.md
