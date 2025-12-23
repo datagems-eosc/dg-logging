@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://datagems-eosc.github.io/dg-logging/v0.0/qa/">
+        <link rel="canonical" href="https://datagems-eosc.github.io/dg-logging/v0.0/logging-pipeline/">
       
       
-        <link rel="prev" href="../onboarding/">
+        <link rel="prev" href="../logging-formats/">
       
       
-        <link rel="next" href="../faq/">
+        <link rel="next" href="../automations/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>Quality Assurance - DataGEMS Logging Service Docs</title>
+        <title>Pipeline - DataGEMS Logging Service Docs</title>
       
     
     
@@ -73,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#quality-assurance" class="md-skip">
+        <a href="#logging-overview" class="md-skip">
           Skip to content
         </a>
       
@@ -127,7 +127,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Quality Assurance
+              Pipeline
             
           </span>
         </div>
@@ -380,18 +380,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -412,7 +414,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -511,10 +513,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../logging-pipeline/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pipeline
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -530,6 +559,37 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ingestion-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ingestion Pipeline
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -712,20 +772,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -746,7 +804,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -789,19 +847,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../qa/" class="md-nav__link">
         
   
   
@@ -817,7 +866,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -905,6 +953,25 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ingestion-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ingestion Pipeline
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -946,10 +1013,10 @@
     
     
       <li class="md-path__item">
-        <a href="../onboarding/" class="md-path__link">
+        <a href="../logging-tracking/" class="md-path__link">
           
   <span class="md-ellipsis">
-    Material
+    Logging
   </span>
 
         </a>
@@ -971,9 +1038,10 @@
   
 
 
-<h1 id="quality-assurance">Quality Assurance<a class="headerlink" href="#quality-assurance" title="Permanent link">&para;</a></h1>
-<p>Key aspects of the Quality Assurance checklist that DataGEMS services must pass have been defined in the processes and documents governing the platform development and quality assurance. </p>
-<p>For the case of DataGEMS Logging Service we rely on the the <a href="https://www.elastic.co/">Elastic</a> solution which is well established and widely used.</p>
+<h1 id="logging-overview">Logging Overview<a class="headerlink" href="#logging-overview" title="Permanent link">&para;</a></h1>
+<h2 id="ingestion-pipeline">Ingestion Pipeline<a class="headerlink" href="#ingestion-pipeline" title="Permanent link">&para;</a></h2>
+<p>The logging service offers various entrypoints through which log ingestion can take place, as it is backed by the mechanisms available by the ELK stack. For the purpose of the DataGEMS integration we have choosen a less intrucive approach for the integrating components.</p>
+<p>We make use of the Beats agents offered by the ELK stack. Through the deployment model utilized, an agent will read the logs produced by each pod and will scan for entries marked as Log Entries. A transformation step will apply any needed mutations to the log entry retrieved to match the logging model expected by the logging service. The trasformation can be customized based on specific deployment labels. A set of supported schemas is provided and each deployed service can declare the logging event schema it conforms to. Based on this schema the transformation is applied. After the log entry model is transformed, enriched with environment metadata and generated, it is pused to the logging service datastore where it becomes available for browsing.</p>
 
 
 

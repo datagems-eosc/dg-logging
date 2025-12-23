@@ -8,25 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://datagems-eosc.github.io/dg-logging/v0.0/logging-overview/">
+        <link rel="canonical" href="https://datagems-eosc.github.io/dg-logging/v0.0/logging-structure/">
       
       
-        <link rel="prev" href="../datastore/">
+        <link rel="prev" href="../logging-tracking/">
       
       
-        <link rel="next" href="../automations/">
+        <link rel="next" href="../logging-formats/">
+      
+      
+        
       
       
       <link rel="icon" href="../images/favicon.jpg">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>Overview - DataGEMS Logging Service Docs</title>
+        <title>Message Structure - DataGEMS Logging Service Docs</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
       
       
 
@@ -53,7 +56,6 @@
     
       
 
-    
     
     
   
@@ -125,7 +127,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Overview
+              Message Structure
             
           </span>
         </div>
@@ -249,9 +251,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Overview
+  
+
     
   </span>
+  
   
 
       </a>
@@ -282,9 +289,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     System
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -293,7 +305,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            System
+            
+  
+    System
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -309,9 +325,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Architecture
+  
+
     
   </span>
+  
   
 
       </a>
@@ -332,9 +353,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Datastores
+  
+
     
   </span>
+  
   
 
       </a>
@@ -375,9 +401,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Logging
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -386,9 +417,41 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            Logging
+            
+  
+    Logging
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../logging-tracking/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Log Tracking
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -411,9 +474,14 @@
   
   
   <span class="md-ellipsis">
-    Overview
+    
+  
+    Message Structure
+  
+
     
   </span>
+  
   
 
           <span class="md-nav__icon md-icon"></span>
@@ -424,9 +492,14 @@
   
   
   <span class="md-ellipsis">
-    Overview
+    
+  
+    Message Structure
+  
+
     
   </span>
+  
   
 
       </a>
@@ -447,60 +520,11 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#log-tacking" class="md-nav__link">
-    <span class="md-ellipsis">
-      Log Tacking
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#log-message-structure" class="md-nav__link">
     <span class="md-ellipsis">
-      Log Message Structure
-    </span>
-  </a>
-  
-</li>
       
-        <li class="md-nav__item">
-  <a href="#log-formats" class="md-nav__link">
-    <span class="md-ellipsis">
-      Log Formats
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Log Formats">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#json-cf-1-format" class="md-nav__link">
-    <span class="md-ellipsis">
-      json-cf-1 format
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#json-cf-2-format" class="md-nav__link">
-    <span class="md-ellipsis">
-      json-cf-2 format
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
+        Log Message Structure
       
-        <li class="md-nav__item">
-  <a href="#ingestion-pipeline" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ingestion Pipeline
     </span>
   </a>
   
@@ -510,6 +534,62 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../logging-formats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Log Formats
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../logging-pipeline/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pipeline
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -545,9 +625,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Setup & Monitoring
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -556,7 +641,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            Setup & Monitoring
+            
+  
+    Setup & Monitoring
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -572,9 +661,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Automations
+  
+
     
   </span>
+  
   
 
       </a>
@@ -595,9 +689,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Deployment
+  
+
     
   </span>
+  
   
 
       </a>
@@ -618,9 +717,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Configuration
+  
+
     
   </span>
+  
   
 
       </a>
@@ -641,9 +745,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Maintenance
+  
+
     
   </span>
+  
   
 
       </a>
@@ -682,9 +791,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Material
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -693,7 +807,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            Material
+            
+  
+    Material
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -709,9 +827,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Onboarding
+  
+
     
   </span>
+  
   
 
       </a>
@@ -732,9 +855,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Quality Assurance
+  
+
     
   </span>
+  
   
 
       </a>
@@ -755,9 +883,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     FAQ & Known Issues
+  
+
     
   </span>
+  
   
 
       </a>
@@ -785,9 +918,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     Home
+  
+
     
   </span>
+  
   
 
       </a>
@@ -822,60 +960,11 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#log-tacking" class="md-nav__link">
-    <span class="md-ellipsis">
-      Log Tacking
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#log-message-structure" class="md-nav__link">
     <span class="md-ellipsis">
-      Log Message Structure
-    </span>
-  </a>
-  
-</li>
       
-        <li class="md-nav__item">
-  <a href="#log-formats" class="md-nav__link">
-    <span class="md-ellipsis">
-      Log Formats
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Log Formats">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#json-cf-1-format" class="md-nav__link">
-    <span class="md-ellipsis">
-      json-cf-1 format
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#json-cf-2-format" class="md-nav__link">
-    <span class="md-ellipsis">
-      json-cf-2 format
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
+        Log Message Structure
       
-        <li class="md-nav__item">
-  <a href="#ingestion-pipeline" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ingestion Pipeline
     </span>
   </a>
   
@@ -891,6 +980,55 @@
           
           
             <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href=".." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Overview
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../logging-tracking/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Logging
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
               <article class="md-content__inner md-typeset">
                 
                   
@@ -901,11 +1039,6 @@
 
 
 <h1 id="logging-overview">Logging Overview<a class="headerlink" href="#logging-overview" title="Permanent link">&para;</a></h1>
-<p>The DataGEMS services may be operating in cluster where service maintainers do not have direct access. Still, for troubleshooting purposes it will be needed to have access to logs produced by the service to ensure the proper operation of their components. For this reason, a horizontal / common approach to logging must be available across all components. This approach will allow collection of the produced logs, aggregation of these logs in a common repository where they can be browsed, filtered and evaluated.</p>
-<h2 id="log-tacking">Log Tacking<a class="headerlink" href="#log-tacking" title="Permanent link">&para;</a></h2>
-<p>In order to serve a user request, a number of services invocations may be chained. It will be useful to be able to track the chain of the request across all involved services. To achive this, we utilize a shared Correlation Id that is generated early in the call stack and propagated across all subsequent invocations.</p>
-<p>At the begining of the request stack, we check if there is a correlation id provided for the request in the request headers typically under a header named x-tracking-correlation. If not, we generate one for the request and any downstream calls. We also add it in the logging configuration so that all subsequent log messages include this correlation id.</p>
-<p>At the time of invoking another service, we include the correlation id header, along with the correlation id value so that the next service in line will use the same identifier.</p>
 <h2 id="log-message-structure">Log Message Structure<a class="headerlink" href="#log-message-structure" title="Permanent link">&para;</a></h2>
 <p>In order for the Logging service to be able to identify key searchable fields by which it can assist the troubleshooting user to group, filter and order the generated logs, some common properties must be directly accessible in logs produced across all services.</p>
 <p>The following fields are extracted from the log messages and are available as searcable fields in the logging service:</p>
@@ -920,34 +1053,6 @@
 <p>Additinal properties are available that are directly exracted from the hosting infrastructure. Any additonal properties that are not explicitly extracted from the log message are available within the log message payload available in the logging service.</p>
 <p>To facilitate integration with the logging service across components of different technologies, a set of supported log message formats are provided that will allow configuration-less integration. Additionally, the tools to configure custom log message parsing are provided in cases the provided formats cannot be facilatated by some components.</p>
 <p>It is recomended that components utilize a logging library that generates structured logs, preferably in JSON format. This will ease the log parsing process as well as enable additional filtering capabilities when browsing the logs.</p>
-<h2 id="log-formats">Log Formats<a class="headerlink" href="#log-formats" title="Permanent link">&para;</a></h2>
-<p>Two log formats are supported at this point. They are very similar but have been extended to support generic log construction rather than rely on specific implementation details of some logging library. A note to be repeated here, additonal properties are allowed and will be available in the logging service indices, but not as searchable fields.</p>
-<p>For the logging service to distinguish between the supported formats, the deployment of each component must be decorated with the log format that it produces.</p>
-<h3 id="json-cf-1-format">json-cf-1 format<a class="headerlink" href="#json-cf-1-format" title="Permanent link">&para;</a></h3>
-<p><strong>json-cf-1</strong> is a log format that expects the following information to be available in the log message:</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;@t&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2025-07-22T12:00:00.000Z&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;@mt&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Sample log message&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;@l&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Info&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;DGCorrelationId&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;a...0&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;UserId&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;a...0&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;ClientId&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;a...0&quot;</span>
-<span class="p">}</span>
-</code></pre></div>
-<h3 id="json-cf-2-format">json-cf-2 format<a class="headerlink" href="#json-cf-2-format" title="Permanent link">&para;</a></h3>
-<p><strong>json-cf-2</strong> is a log format that expects the following information to be available in the log message:</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;timestamp&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2025-07-22T12:00:00.000Z&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;msg&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Sample log message&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;level&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Info&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;DGCorrelationId&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;a...0&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;UserId&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;a...0&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;ClientId&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;a...0&quot;</span>
-<span class="p">}</span>
-</code></pre></div>
-<h2 id="ingestion-pipeline">Ingestion Pipeline<a class="headerlink" href="#ingestion-pipeline" title="Permanent link">&para;</a></h2>
-<p>The logging service offers various entrypoints through which log ingestion can take place, as it is backed by the mechanisms available by the ELK stack. For the purpose of the DataGEMS integration we have choosen a less intrucive approach for the integrating components.</p>
-<p>We make use of the Beats agents offered by the ELK stack. Through the deployment model utilized, an agent will read the logs produced by each pod and will scan for entries marked as Log Entries. A transformation step will apply any needed mutations to the log entry retrieved to match the logging model expected by the logging service. The trasformation can be customized based on specific deployment labels. A set of supported schemas is provided and each deployed service can declare the logging event schema it conforms to. Based on this schema the transformation is applied. After the log entry model is transformed, enriched with environment metadata and generated, it is pused to the logging service datastore where it becomes available for browsing.</p>
 
 
 
@@ -1033,10 +1138,11 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.path", "navigation.top"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"alias": true, "default": "latest", "provider": "mike"}}</script>
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.path", "navigation.top"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"alias": true, "default": "latest", "provider": "mike"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
